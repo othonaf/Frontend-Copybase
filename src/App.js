@@ -18,7 +18,7 @@ function App() {
     try {
       const formData = new FormData();
     formData.append('file', file);
-    const response = await axios.post('https://backend-em-nest-js.vercel.app//upload', formData);
+    const response = await axios.post('https://backend-em-nest-js.vercel.app/upload', formData);
     setData(response.data);
     } catch (error) {
       setData(error)
