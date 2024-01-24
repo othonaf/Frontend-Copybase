@@ -21,7 +21,7 @@ function App() {
     const response = await axios.post('https://backend-em-nest-js.vercel.app//upload', formData);
     setData(response.data);
     } catch (error) {
-      console.log(error)
+      setData(error)
     }
     
   }
