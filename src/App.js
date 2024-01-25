@@ -28,7 +28,7 @@ function App() {
         Gráficos de Métricas Mensais.
       </Titulo>
       <h2>
-        Clilque no botão "Escolher arquivo" logo abaixo e depois clique em "Upload" para ver os Gráficos.
+        Clique no botão "Escolher arquivo" logo abaixo e depois clique em "Upload" para ver os Gráficos.
       </h2>
       <Body>
         <MontlyRevenue file={file} setFile={setFile} data={data} setData={setData} />
