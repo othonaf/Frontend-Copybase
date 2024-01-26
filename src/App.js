@@ -17,7 +17,7 @@ function App() {
   const onFileUpload = async () => {
     const formData = new FormData();
     formData.append('file', file);
-    const response = await axios.post('https://backend-copybase.onrender.com/', formData);
+    const response = await axios.post('https://backend-copybase.onrender.com/upload', formData);
     setData(response.data);
     
   }
