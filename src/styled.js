@@ -93,4 +93,7 @@ export const Input = styled.input.attrs({ type: 'file' })`
             border :2 px solid #4CAF50 ;
        }
     }
-`;
+`
+export const Loading = styled.h2`
+    padding-top: 5%;
+`
