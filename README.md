@@ -7,3 +7,5 @@ Esta aplicação Frontend usa a biblioteca 'Axios' para comunicar-se com a API e
 Aqui também usei "styled-components" para estilizar a página.
 
 Para rodar na sua máquina local, é só clonar o repositório, e no diretório "copybase", executar "npm run start".
+
+Você também pode ver esta aplicação funcionando através do link do Deploy que fiz no Vercel: https://copybase-othons-projects.vercel.app/
